@@ -1,0 +1,7 @@
+.event-list > li.event {
+  color: #999;
+}
+
+.event-list .event .program {
+  max-width: 75px;
+}

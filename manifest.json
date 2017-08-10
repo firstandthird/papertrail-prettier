@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Papertrail Prettier",
+  "short_name": "Papertrail Prettier",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "content_scripts": [
+    { 
+      "matches": ["https://papertrailapp.com/events*", "https://papertrailapp.com/systems/*/events*"],
+      "css": ["styles.css"],
+      "js": ["scripts.js"]
+    }
+  ]
+}
